@@ -1,0 +1,59 @@
+/* App.css */
+
+/* Styling for main heading (KBC Quiz Game) */
+.main-heading {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Styling for sub-heading (Current Question) */
+.sub-heading {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Popup Styling */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.popup h2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.popup button {
+  font-family: 'Arial', sans-serif;
+  padding: 10px;
+  background-color: skyblue;
+  border: none;
+  cursor: pointer;
+}
+
+/* Feedback on form for correct/incorrect answers */
+form {
+  padding: 20px;
+  transition: background-color 0.5s ease;
+  border-radius: 10px;
+}
+
+form.correct {
+  background-color: green;
+}
+
+form.incorrect {
+  background-color: red;
+}

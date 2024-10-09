@@ -1,0 +1,67 @@
+/* Center the form and make sure it's responsive */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  /* Background color when the answer is correct */
+  .player-screen.correct {
+    background-color: #d4edda;
+  }
+  
+  /* Background color when the answer is wrong */
+  .player-screen.wrong {
+    background-color: 'red';
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .radio-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Input field styling */
+  input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* For retry button */
+  .retry-button {
+    background-color: #ff3860;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
